@@ -1,4 +1,6 @@
 # 2c.SIMULATING ARP /RARP PROTOCOLS
+# Name: Sanjith.R
+# Reg no: 212223230191
 ## AIM
 To write a python program for simulating ARP protocols using TCP.
 ## ALGORITHM:
@@ -18,9 +20,6 @@ stored.
 P
 ## PROGRAM - ARP
 ```
-Developed by: Sanjith.R
-Reg no: 212223230191
-
 import socket 
 s=socket.socket() 
 s.bind(('localhost',8000)) 
@@ -39,9 +38,6 @@ while True:
 
 ## PROGRAM - RARP
 ```
-Developed by: Sanjith.R
-Reg no: 212223230191
-
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
